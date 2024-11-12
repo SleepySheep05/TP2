@@ -1,0 +1,128 @@
+img {
+    max-width: 350px;
+    margin: auto;
+}
+
+figure {
+    background-color: white;
+    border: solid black 1px;
+    padding: 10px;
+    width: fit-content;
+    float: left;
+}
+
+.grille {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr 5fr 5fr min-content;
+    grid-template-areas:
+        "header header header"
+        "main main aside"
+        "main main aside"
+        "footer footer footer";
+        width: 100%;
+       /* height: 100vh;*/
+}
+
+.top {
+    grid-area: header;
+    background-image: url(../images/Fallout4banner.jpg);
+    width: 100%;
+    background-image: no-repeat;
+    margin-top: -20px;
+}
+
+.left {
+    grid-area: main;
+    background-color: #C4B2AA;
+}
+
+.right {
+    grid-area: aside;
+    background-image: linear-gradient(#9f8174,#8b5d49);
+}
+
+.bottom {
+    grid-area: footer;
+    background-color:#0c3135;
+    text-align: right;
+    color: #d0bf6e;
+}
+
+.h1Fallout {
+    color: #144045;
+}
+h3 {
+text-align: center;
+}
+.linkFallout {
+    color: #d0bf6e;
+}
+a:hover {
+   color: blue;
+  }
+  button{
+background-color: #0c3135;
+margin-top: 5%;
+padding: 10px;
+float: left;
+  }
+  .topRDR2{
+   grid-area: header;
+  background-image: url(../images/RDR2banner.jpg);
+  width: 100%;
+  background-image: no-repeat;
+  margin-top: -50px;   
+  }
+.h1RDR2{
+color: darkred;
+}
+.bottomRDR2{
+    background-color: black;
+    color: red;
+}
+.colorlinksRDR2{
+    color:rgba(255, 42, 42, 0.984);
+}
+.buttonRDR2{
+    background-color: black;
+}
+.topIndex{
+    grid-area: header;
+    background-color:  #C4B2AA;
+    width: 100%;
+}
+.h1Index{
+    text-align: center;
+    font-weight: bolder;
+}
+.bottomIndex{
+    background-color: #8b5d49;
+    color: black;
+}
+.buttonIndex{
+    background-color: rgb(207, 185, 153);
+}
+.colorlinksIndex{
+    color:rgb(101, 60, 6);
+}
+.gallerie{
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+div.texte {
+    padding: 15px;
+    text-align: center;
+}
+.topKB2{
+    grid-area: header;
+    background-color:  black;
+    width: 100%;
+}
+.buttonKB2{
+    background-color: beige;
+}
+.colorlinksKB2{
+    color:brown;
+}
