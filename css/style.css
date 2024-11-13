@@ -62,10 +62,16 @@ a:hover {
    color: blue;
   }
   button{
-background-color: #0c3135;
 margin-top: 5%;
 padding: 10px;
-float: left;
+  }
+  .buttonFalloutleft{
+    background-color: #0c3135;
+    float: left;
+  }
+  .buttonFalloutright{
+    background-color: #0c3135;
+    float: right;
   }
   .topRDR2{
    grid-area: header;
@@ -84,8 +90,13 @@ color: darkred;
 .colorlinksRDR2{
     color:rgba(255, 42, 42, 0.984);
 }
-.buttonRDR2{
+.buttonRDR2left{
     background-color: black;
+    float: left;
+}
+.buttonRDR2right{
+    background-color: black;
+    float: right;
 }
 .topIndex{
     grid-area: header;
@@ -100,8 +111,13 @@ color: darkred;
     background-color: #8b5d49;
     color: black;
 }
-.buttonIndex{
+.buttonIndexleft{
     background-color: rgb(207, 185, 153);
+    float: left;
+}
+.buttonIndexright{
+    background-color: rgb(207, 185, 153);
+    float: right;
 }
 .colorlinksIndex{
     color:rgb(101, 60, 6);
@@ -120,8 +136,13 @@ div.texte {
     background-color:  black;
     width: 100%;
 }
-.buttonKB2{
+.buttonKB2left{
     background-color: beige;
+    float: left;
+}
+.buttonKB2right{
+    background-color: beige;
+float: right;
 }
 .colorlinksKB2{
     color:brown;
