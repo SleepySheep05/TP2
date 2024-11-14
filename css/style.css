@@ -28,8 +28,8 @@ figure {
     grid-area: header;
     background-image: url(../images/Fallout4banner.jpg);
     width: 100%;
-    background-image: no-repeat;
-    margin-top: -20px;
+    background-size: no-repeat;
+    background-size: 100% 120%;
 }
 
 .left {
@@ -77,8 +77,8 @@ padding: 10px;
    grid-area: header;
   background-image: url(../images/RDR2banner.jpg);
   width: 100%;
-  background-image: no-repeat;
-  margin-top: -50px;   
+  background-size: no-repeat;
+  background-size: 100% 120%;  
   }
 .h1RDR2{
 color: darkred;
